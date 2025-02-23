@@ -8,9 +8,9 @@ from datetime import datetime, timedelta
 import requests
 
 # Add this at the top of the file
-VERIFICATION_REQUIRED = os.getenv('VERIFICATION_REQUIRED', 'true').lower() == 'true'
+VERIFICATION_REQUIRED = os.getenv('VERIFICATION_REQUIRED', 'false').lower() == 'true'
 
-admin_ids = [6025969005, 6018060368]
+admin_ids = [1352497419]
 
 # MongoDB connection
 MONGO_URI = os.getenv('MONGO_URI')  # Get MongoDB URI from environment variables
