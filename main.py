@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 import requests
 
 # Add this at the top of the file
-VERIFICATION_REQUIRED = os.getenv('VERIFICATION_REQUIRED', 'false').lower() == 'true'
+VERIFICATION_REQUIRED = os.getenv('VERIFICATION_REQUIRED', 'false').lower() == 'false'
 
 admin_ids = [1352497419]
 
